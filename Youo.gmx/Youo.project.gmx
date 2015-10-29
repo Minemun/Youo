@@ -5,7 +5,12 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprites name="Personaje principal">
+      <sprite>sprites\Sprite_Izquierda</sprite>
+      <sprite>sprites\Sprite_Derecha</sprite>
+    </sprites>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <help>
