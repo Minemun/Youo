@@ -10,9 +10,41 @@
       <sprite>sprites\Sprite_Izquierda</sprite>
       <sprite>sprites\Sprite_Derecha</sprite>
     </sprites>
+    <sprite>sprites\Sprite_Para_botones</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <backgrounds name="Menu">
+      <background>background\Back_Menu_Inicial</background>
+      <background>background\Back_Menu_Opciones</background>
+      <background>background\Back_Menu_Pantalla</background>
+    </backgrounds>
+  </backgrounds>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\Obelix_Pro</font>
+  </fonts>
+  <objects name="objects">
+    <objects name="Menu">
+      <objects name="Inicial">
+        <object>objects\Object_Salir</object>
+        <object>objects\Object_Opciones</object>
+      </objects>
+      <objects name="Opciones">
+        <objects name="Pantalla">
+          <object>objects\Object_Opciones_Pantalla_Completa</object>
+          <object>objects\Object_Opciones_Pantalla_Ventana</object>
+        </objects>
+        <object>objects\Object_Opciones_Pantalla</object>
+      </objects>
+    </objects>
+  </objects>
+  <rooms name="rooms">
+    <rooms name="Menu">
+      <room>rooms\Room_Menu_Inicial</room>
+      <room>rooms\Room_Menu_Opciones</room>
+      <room>rooms\Room_Menu_Pantalla</room>
+    </rooms>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
