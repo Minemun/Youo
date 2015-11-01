@@ -11,6 +11,7 @@
       <sprite>sprites\Sprite_Derecha</sprite>
     </sprites>
     <sprite>sprites\Sprite_Para_botones</sprite>
+    <sprite>sprites\sprite3</sprite>
   </sprites>
   <backgrounds name="background">
     <backgrounds name="Menu">
